@@ -33,3 +33,5 @@ resource "kafka-connect_connector" "slack_sink" {
 ### :memo: `message.template`
 Interpolate fields from the message using `${field_name}`.
 Nested fields are accessible using a `.` e.g. `${customer.address.city}` 
+
+test
